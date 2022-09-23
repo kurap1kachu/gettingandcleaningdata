@@ -11,17 +11,17 @@ About R script
 File with R code "run_analysis.R" performs the 5 following steps (in accordance assigned task of course work):
 
 Reading in the files and merging the training and the test sets to create one data set.
-1.1 Reading files
-1.1.1 Reading trainings tables
-1.1.2 Reading testing tables
-1.1.3 Reading feature vector
-1.1.4 Reading activity labels
-1.2 Assigning variable names
-1.3 Merging all data in one set
+1 Reading files
+1.1 Reading trainings tables
+1.2 Reading testing tables
+1.3 Reading feature vector
+1.4 Reading activity labels
+2.1 Assigning variable names
+2.2 Merging all data in one set
 Extracting only the measurements on the mean and standard deviation for each measurement
-2.1 Reading variable names
-2.2 Create vector for defining ID, mean and standard deviation
-2.3 Making nessesary subset from merged data set
+3.1 Reading variable names
+3.2 Create vector for defining ID, mean and standard deviation
+3.3 Making nessesary subset from merged data set
 Using descriptive activity names to name the activities in the data set
 Appropriately labeling the data set with descriptive variable names
 Creating a second, independent tidy data set with the average of each variable for each activity and each subject
@@ -30,6 +30,6 @@ Creating a second, independent tidy data set with the average of each variable f
 The code assumes all the data is present in the same folder, un-compressed and without names altered.
 
 About variables:
-x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
-x_data, y_data and subject_data merge the previous datasets to further analysis.
-features contains the correct names for the x_data dataset, which are applied to the column names stored in
+xtrain, ytrain, xtest, ytest, subtrain and subtest contain the data from the downloaded files.
+with_Activityname, activity_mean merge the previous datasets to further analysis.
+
